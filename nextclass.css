@@ -1,0 +1,41 @@
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+/*THIS IS CLASS, SO I USE .(DOT)*/
+.container1{
+  background: yellow;
+  /*background: yellow url("ssy.png");*/
+  width: 400px;
+  height: 400px;
+  color: blue;
+
+  border-top: 5px solid green;
+  border-bottom: 5px dotted purple;
+  border-left: 5px dashed blue;
+  border-right: 5px double red;
+
+  /*padding and margin*/
+  padding: 5px 5px 5px 5px;
+  margin: 25px;
+}
+
+p[id]{
+  color: red;
+}
+
+p#june{
+  color: blue;
+  font-size: 100px;
+}
+
+h1:hover {
+  background: blue;
+  color: white;
+}
+
+/*GENERAL*/
+/*pixels(px): pixels on a device;
+points(pt): used in print media in which 72 points equals to 1 inch;
+ems(em): equal to current font size;
+percent(%): current font size equal to 100%;*
